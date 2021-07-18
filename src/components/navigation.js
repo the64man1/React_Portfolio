@@ -8,7 +8,7 @@ function Navigation({ currentTab, handleTabChange}) {
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#aboutme" onClick={() => handleTabChange('AboutMe')} className={currentTab === 'AboutMe' ? 'black-text' : 'white-text'}>About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#projects" onClick={() => handleTabChange('Projects')} className={currentTab === 'Projects' ? 'black-text' : 'white-text'}>Projects</a></li>
                 <li><a href="#contactme" onClick={() => handleTabChange('Resume')} className={currentTab === 'Resume' ? 'black-text' : 'white-text'}>Resume</a></li>
                 <li><a href="#contactme" onClick={() => handleTabChange('ContactMe')} className={currentTab === 'ContactMe' ? 'black-text' : 'white-text'}>Contact Me</a></li>
             </ul>

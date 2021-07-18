@@ -11,6 +11,7 @@ import Footer from './components/footer';
 function App() {
   return (
     <div className="App">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
       <Header />
       <Container />
       <Footer />

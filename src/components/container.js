@@ -3,6 +3,7 @@ import Navigation from './navigation';
 import AboutMe from './aboutme';
 import ContactMe from './contactme';
 import Resume from './resume';
+import Project from './project';
 
 export default function Container() {
     const [currentTab, setCurrentTab] = useState('AboutMe');
@@ -16,6 +17,9 @@ export default function Container() {
         }
         if (currentTab === 'Resume') {
             return <Resume />
+        }
+        if (currentTab === 'Projects') {
+            return <Project />
         }
     };
 
