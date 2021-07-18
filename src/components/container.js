@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navigation from './navigation';
 import AboutMe from './aboutme';
 import ContactMe from './contactme';
+import Resume from './resume';
 
 export default function Container() {
     const [currentTab, setCurrentTab] = useState('AboutMe');
@@ -12,6 +13,9 @@ export default function Container() {
         }
         if (currentTab === 'ContactMe') {
             return <ContactMe />
+        }
+        if (currentTab === 'Resume') {
+            return <Resume />
         }
     };
 

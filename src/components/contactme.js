@@ -67,12 +67,12 @@ function ContactMe() {
           <textarea placeholder="Message" name="message" value={message} onChange={handleInputChange} onBlur={validateInput} type="text" className="materialize-textarea"></textarea>
         </div>
       </div>
-      <button type="button" className="waves-effect waves-light btn-small" onClick={handleSubmitForm}>Submit</button>
       {errorText && (
         <div>
           <p className="error-text">{errorText}</p>
         </div>
       )}
+      <button type="button" className="waves-effect waves-light btn-small" onClick={handleSubmitForm}>Submit</button>
     </div>
     )
 }
