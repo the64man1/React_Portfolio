@@ -64,9 +64,9 @@ function Project() {
 
     return (
         <section class="row mt-0 container-fluid blue darken-3 projects">
-            <h3 class="row center">Projects</h3>
-            <div class="row">
-                <div class="col m6 s12">
+            <h3 class="row center white-text">Projects</h3>
+            <div class="row ">
+                <div class="col m6 offset-m3 s12">
                     {
                         projects.map((project, i) => {
                             return (
@@ -100,8 +100,8 @@ function Project() {
                                 <span class="card-title">{project.name}</span>
                                     <p>{project.description}</p>
                                 <div class="card-action row">
-                                    <a href={project.github} target="_blank" class="col m6 s6 waves-effect waves-light btn-small"><i class="material-icons right">laptop_mac</i>GitHub Repo</a>
-                                    <a href={project.deployed} target="_blank" class="col m6 s6 waves-effect waves-light btn-small"><i class="material-icons right">laptop_mac</i>Deployed Site</a>
+                                    <a href={project.github} target="_blank" class="col m6 s6 waves-effect waves-light btn-small project-btn"><i class="material-icons right">laptop_mac</i>GitHub Repo</a>
+                                    <a href={project.deployed} target="_blank" class="col m6 s6 waves-effect waves-light btn-small project-btn"><i class="material-icons right">laptop_mac</i>Deployed Site</a>
                                 </div>
                             </div>
                         </div>

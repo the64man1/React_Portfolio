@@ -12,9 +12,9 @@ function Footer() {
                 </div>
                 <div class="l4 offset-l1 s12">
                     <ul>
-                        <li><a class="waves-effect waves-light btn-small" id="linkedin-btn" href="https://www.linkedin.com/in/aqprogrammer" target="_blank">LinkedIn</a></li>
-                        <li><a class="waves-effect waves-light btn-small" id="github-btn" href="https://github.com/the64man1" target="_blank">GitHub</a></li>
-                        <li><a class="waves-effect waves-light btn-small" id="email-btn" href="mailto:aqprogrammer@gmail.com">Email</a></li>
+                        <li><a class="waves-effect waves-light btn-small footer-btn" id="linkedin-btn" href="https://www.linkedin.com/in/aqprogrammer" target="_blank">LinkedIn</a></li>
+                        <li><a class="waves-effect waves-light btn-small footer-btn" id="github-btn" href="https://github.com/the64man1" target="_blank">GitHub</a></li>
+                        <li><a class="waves-effect waves-light btn-small footer-btn" id="email-btn" href="mailto:aqprogrammer@gmail.com">Email</a></li>
                     </ul>
                 </div>
                 <div class="row">
