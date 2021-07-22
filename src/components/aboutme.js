@@ -1,4 +1,5 @@
 import React from 'react';
+import pic from '../assets/images/Max Quintanilla 019 R web.jpg'
 //import '../App.css';
 
 function AboutMe() {
@@ -6,7 +7,7 @@ function AboutMe() {
     <div class="row container card-panel" id="aboutme">
       <h3 class="row center">About Me</h3>
       <div class="row aboutmebox">
-        <img src="images/Max Quintanilla 019 R web.jpg" class = "col s12 m4" id="picofmax" alt="Pic of Max" />
+        <img src={pic} class = "col s12 m4" id="picofmax" alt="Pic of Max" />
         <p class = "col s12 m4">
             I am a full-stack web developer, with interest in back-end architecture and development, leveraging five years of experience as a practicing general dentist to best serve
             clients and users in developing interactive and engaging programs. Having graduated from the Full Stack Web Development Coding Bootcamp at Rice University, I developed the skills to use JavaScript, jQuery, Bootstrap, React

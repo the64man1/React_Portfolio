@@ -1,5 +1,10 @@
 import React from 'react';
-//import '../App.css';
+import galleria from '../assets/images/Galleria.png';
+import gooberville from '../assets/images/Gooberville Food New.png';
+import tech from '../assets/images/Tech Blog.png';
+import workout from '../assets/images/Workout Tracker.png';
+import budget from '../assets/images/Budget Tracker.png';
+import employee from '../assets/images/Employee Tracker.png';
 
 function Project() {
     const projects = [
@@ -8,42 +13,42 @@ function Project() {
             description: 'An e-commerce website for buying and selling art. The website employs the Handlebars engine to render gallery content, MySQL to store data, and Express for routing.',
             github: 'https://github.com/kthendavid04/gallery',
             deployed: 'https://whispering-river-42546.herokuapp.com/',
-            image: 'images/Galleria.png'
+            image: galleria
         },
         {
             name: 'Gooberville-Foods',
             description: 'A website where users can search for recipes and save recipes and comments for later. Application makes use of third-part APIs to find recipes and local storage for saving recipes and comments.',
             github: 'https://github.com/the64man1/Gooberville-Foods',
             deployed: 'https://the64man1.github.io/Gooberville-Foods/',
-            image: 'images/Gooberville Food New.png'
+            image: gooberville
         },
         {
             name: 'Tech Blog',
             description: 'A simple full-stack blog website built using MVC convention. User accounts and posts are stored in MySQL database, with Sequelize as the ORM, and the Handlebars engine is used to dynamically update content.',
             github: 'https://github.com/the64man1/Tech_Blog',
             deployed: 'https://aq-tech-blog.herokuapp.com/',
-            image: 'images/Tech Blog.png'
+            image: tech
         },
         {
             name: 'Workout Tracker',
             description: 'Track your workouts using MongoDB to store your history. Application uses MongoDB to store data, with Mongoose as the ODM',
             github: 'https://github.com/the64man1/Workout_Tracker',
             deployed: 'https://aq-fitness-tracker.herokuapp.com/',
-            image: 'images/Workout Tracker.png'
+            image: workout
         },
         {
             name: 'Budget Tracker',
             description: 'Progressive Web App for tracking your budget, even if offline. Implements a service worker to cache data and IndexDB to store data while offline.',
             github: 'https://github.com/the64man1/Budget_Tracker',
             deployed: 'https://aq-budget-tracker.herokuapp.com/',
-            image: 'images/Budget Tracker.png'
+            image: budget
         },
         {
             name: 'Employee Tracker',
             description: 'Biuld and manage a SQL database of employees through the command line. Application uses Inquirer Node package to handle user input and stores data in a MySQL database.',
             github: 'https://github.com/the64man1/Employee-Tracker',
             deployed: 'https://youtu.be/05w6EtnzdvE',
-            image: 'images/Employee Tracker.png'
+            image: employee
         }
     ];
 
