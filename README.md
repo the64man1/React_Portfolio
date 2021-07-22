@@ -13,13 +13,14 @@ Users can use modify this application with their own personal and project inform
 
 In completing this project, I learned how to assemble a React app from scratch. From developing architecture and structuring compenents, to iterating through data and displaying images, I've gained an understanding and appreciation for the capabilites of React.
 
+![React App](https://user-images.githubusercontent.com/74144055/126721116-b33d1df4-d553-4ac6-8894-4bb69f1599ab.png)
+
 ## Table of Contents
     
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
     
 ## Installation
