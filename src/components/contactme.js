@@ -18,6 +18,9 @@ function ContactMe() {
     if (inputType === 'name') {
       setName(inputValue);
     } else if (inputType === 'email') {
+      if (!validateEmail(inputValue)) {
+        setErrorText('Please enter a valid email address');
+      }
       setEmail(inputValue);
     } else {
       setMessage(inputValue);
@@ -69,7 +72,7 @@ function ContactMe() {
       </div>
       {errorText && (
         <div>
-          <p className="error-text">{errorText}</p>
+          <p className="error-text red-text">{errorText}</p>
         </div>
       )}
       <button type="button" className="waves-effect waves-light btn-small" onClick={handleSubmitForm}>Submit</button>
