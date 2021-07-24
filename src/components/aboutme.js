@@ -1,6 +1,5 @@
 import React from 'react';
 import pic from '../assets/images/Max Quintanilla 019 R web.jpg'
-//import '../App.css';
 
 function AboutMe() {
     return (

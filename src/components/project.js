@@ -52,21 +52,6 @@ function Project() {
         }
     ];
 
-    // return projects.map((project, i) => {
-    //     return <div class="row card-panel" key={i}>
-    //                     <h4>{project.name}</h4>
-    //                     <p class="col s6 project-content">{project.description}</p>
-    //                     <div class="col s6">
-    //                       <a href={project.github} target="_blank" class="col waves-effect waves-light btn-small"><i class="material-icons right">laptop_mac</i>GitHub Repo</a>
-    //                     </div>
-    //                 <a href={project.deployed} target="_blank" class="hero link1-pic flex-center projectlink">
-    //                     <div class="center hero-text">
-    //                         <p class="link-text">Click to go to deployed site</p>
-    //                     </div>
-    //                 </a>
-    //     </div>
-    // })
-
     return (
         <section class="row mt-0 container-fluid blue darken-3 projects">
             <h3 class="row center white-text">Projects</h3>
@@ -75,28 +60,6 @@ function Project() {
                     {
                         projects.map((project, i) => {
                             return (
-                            // <div class="row card-panel" key={i}>
-                            //                 <h4>{project.name}</h4>
-                            //                 <p class="col s6 project-content">{project.description}</p>
-                            //                 <div class="col s6">
-                            //                   <a href={project.github} target="_blank" class="col waves-effect waves-light btn-small"><i class="material-icons right">laptop_mac</i>GitHub Repo</a>
-                            //                 </div>
-                                        // <a href={project.deployed} target="_blank" class="hero link1-pic flex-center projectlink">
-                                        //     <div class="center hero-text">
-                                        //         <p class="link-text">Click to go to deployed site</p>
-                                        //     </div>
-                                        // </a>
-                            // </div>
-                            // <div class="card">
-                            //     <div class="card-image">
-                            //         <img src={project.image} />
-                            //         <span class="card-title">{project.name}</span>
-                            //         <a href={project.github} target="_blank" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">laptop_mac</i>GitHub Repo</a>
-                            //     </div>
-                            //     <div class="card-content">
-                            //         <p>{project.description}</p>
-                            //     </div>
-                            // </div>
                         <div class="card">
                             <div class="card-image">
                               <img src={project.image} />
