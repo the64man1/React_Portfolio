@@ -5,9 +5,17 @@ import tech from '../assets/images/Tech Blog.png';
 import workout from '../assets/images/Workout Tracker.png';
 import budget from '../assets/images/Budget Tracker.png';
 import employee from '../assets/images/Employee Tracker.png';
+import foodbook from '../assets/images/foodBook.png'
 
 function Project() {
     const projects = [
+        {
+            name: 'Foodbook',
+            description: 'A website to find popular, user-created recipes, and share your own favorite recipes. Created using the MERN stack, along with GraphQL for managing API requests.',
+            github: 'https://github.com/the64man1/AQ_Foodbook',
+            deployed: 'https://foodbook-app.herokuapp.com/',
+            image: foodbook
+        },
         {
             name: 'Galleria',
             description: 'An e-commerce website for buying and selling art. The website employs the Handlebars engine to render gallery content, MySQL to store data, and Express for routing.',
