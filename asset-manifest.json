@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.06350953.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.f6f8939d.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.f6f8939d.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.8d689366.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.8d689366.js.map",
+    "static/css/2.b0300f7a.chunk.css": "/React_Portfolio/static/css/2.b0300f7a.chunk.css",
+    "static/js/2.b4747e79.chunk.js": "/React_Portfolio/static/js/2.b4747e79.chunk.js",
+    "static/js/2.b4747e79.chunk.js.map": "/React_Portfolio/static/js/2.b4747e79.chunk.js.map",
+    "static/js/3.b9dbe38c.chunk.js": "/React_Portfolio/static/js/3.b9dbe38c.chunk.js",
+    "static/js/3.b9dbe38c.chunk.js.map": "/React_Portfolio/static/js/3.b9dbe38c.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/2.b0300f7a.chunk.css.map": "/React_Portfolio/static/css/2.b0300f7a.chunk.css.map",
+    "static/css/main.06350953.chunk.css.map": "/React_Portfolio/static/css/main.06350953.chunk.css.map",
+    "static/js/2.b4747e79.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.b4747e79.chunk.js.LICENSE.txt",
+    "static/media/Budget Tracker.7d4e0a04.png": "/React_Portfolio/static/media/Budget Tracker.7d4e0a04.png",
+    "static/media/Employee Tracker.a593c361.png": "/React_Portfolio/static/media/Employee Tracker.a593c361.png",
+    "static/media/Galleria.b9327420.png": "/React_Portfolio/static/media/Galleria.b9327420.png",
+    "static/media/Gooberville Food New.e3a8c115.png": "/React_Portfolio/static/media/Gooberville Food New.e3a8c115.png",
+    "static/media/Max Quintanilla 019 R web.6c6e7727.jpg": "/React_Portfolio/static/media/Max Quintanilla 019 R web.6c6e7727.jpg",
+    "static/media/Tech Blog.9bf49ee6.png": "/React_Portfolio/static/media/Tech Blog.9bf49ee6.png",
+    "static/media/Workout Tracker.3f2f14fb.png": "/React_Portfolio/static/media/Workout Tracker.3f2f14fb.png",
+    "static/media/newresume.4b131379.pdf": "/React_Portfolio/static/media/newresume.4b131379.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d689366.js",
+    "static/css/2.b0300f7a.chunk.css",
+    "static/js/2.b4747e79.chunk.js",
+    "static/css/main.06350953.chunk.css",
+    "static/js/main.f6f8939d.chunk.js"
+  ]
+}
